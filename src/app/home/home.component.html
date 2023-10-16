@@ -3,14 +3,14 @@
             <div>
                 <select>
                     <option value="en">English</option>
-                    <option>French</option>
+                    <option *ngFor="let lang of languages" value={{lang?.code}}>{{lang?.name}}</option>
                 </select>
             </div>
             <textarea rows="30" cols="50" type="text" placeholder="Type your text here...."></textarea>
             <div>
                 <select>
                     <option>English</option>
-                    <option>French</option>
+                    <option *ngFor="let lang of languages" value={{lang?.code}}>{{lang?.name}}</option>
                 </select>
             </div>
     </div>

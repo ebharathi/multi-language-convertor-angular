@@ -1,0 +1,17 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+select{
+    margin: 0px 2px;
+    padding:8px 7px;
+}
+input{
+    padding: 8px 10px;
+}
